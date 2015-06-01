@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapping", "Mapping\Mapping.csproj", "{567EFA4E-D675-4C59-BC3A-9BFCFD83FE39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL.Interface", "DAL.Interface\DAL.Interface.csproj", "{DF0A61F1-2E1C-4C37-BE98-165F05576CF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{47CE8762-B087-4CD5-ADBA-AD4043D17C33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL.Implementation", "DAL.Implementation\DAL.Implementation.csproj", "{31A3E386-FF94-4AF6-9809-043D853C2868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainEntities", "DomainEntities\DomainEntities.csproj", "{F87B1386-40A5-45A2-8406-2495AA7D1B8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{F21A46EA-9E99-42C2-B487-168F476D09C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BagTrackerAsp", "BagTrackerAsp\BagTrackerAsp.csproj", "{F186FD5F-15A2-4A03-9244-B81E63404AF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{567EFA4E-D675-4C59-BC3A-9BFCFD83FE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567EFA4E-D675-4C59-BC3A-9BFCFD83FE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567EFA4E-D675-4C59-BC3A-9BFCFD83FE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567EFA4E-D675-4C59-BC3A-9BFCFD83FE39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF0A61F1-2E1C-4C37-BE98-165F05576CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF0A61F1-2E1C-4C37-BE98-165F05576CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF0A61F1-2E1C-4C37-BE98-165F05576CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF0A61F1-2E1C-4C37-BE98-165F05576CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31A3E386-FF94-4AF6-9809-043D853C2868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A3E386-FF94-4AF6-9809-043D853C2868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A3E386-FF94-4AF6-9809-043D853C2868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A3E386-FF94-4AF6-9809-043D853C2868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F87B1386-40A5-45A2-8406-2495AA7D1B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F87B1386-40A5-45A2-8406-2495AA7D1B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F87B1386-40A5-45A2-8406-2495AA7D1B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F87B1386-40A5-45A2-8406-2495AA7D1B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F21A46EA-9E99-42C2-B487-168F476D09C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F21A46EA-9E99-42C2-B487-168F476D09C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F21A46EA-9E99-42C2-B487-168F476D09C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F21A46EA-9E99-42C2-B487-168F476D09C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F186FD5F-15A2-4A03-9244-B81E63404AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F186FD5F-15A2-4A03-9244-B81E63404AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F186FD5F-15A2-4A03-9244-B81E63404AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F186FD5F-15A2-4A03-9244-B81E63404AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF0A61F1-2E1C-4C37-BE98-165F05576CF7} = {47CE8762-B087-4CD5-ADBA-AD4043D17C33}
+		{31A3E386-FF94-4AF6-9809-043D853C2868} = {47CE8762-B087-4CD5-ADBA-AD4043D17C33}
+	EndGlobalSection
+EndGlobal

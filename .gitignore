@@ -1,0 +1,9 @@
+*.exe
+*.dll
+obj/
+bin/
+packages/
+*.suo
+*.csproj.user
+*.StyleCop
+*.Cache
